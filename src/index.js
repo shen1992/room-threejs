@@ -1,3 +1,4 @@
+require("babel-polyfill");
 import * as THREE from 'three'
 import stats from 'stats.js'
 import initOrbitControls from 'three-orbit-controls'

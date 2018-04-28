@@ -26,7 +26,8 @@ const config = {
   devtool: 'source-map',
   devServer: {
     contentBase: [path.join(__dirname, 'demo'), __dirname],
-    host: '0.0.0.0'
+    host: '0.0.0.0',
+    disableHostCheck: true,
   }
 }
 
